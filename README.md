@@ -1,6 +1,6 @@
 # Product Recommendation System for Bigbasket
 
-<img src="/Users/apple/Desktop/grocery/images/grocery.png" style="zoom:60%;" />
+<img src="images/grocery.png" style="width:40%;" />
 
 BigBasket is one of India’s largest online grocery delivery platforms, offering a wide range of products including fresh produce, dairy, packaged foods, household items. This project focuses on developing a product recommendation system tailored for BigBasket's members, leveraging **Apriori algorithms** and **similarity measures** to analyze purchase patterns and user behavior. Two key features are introduced:
 
@@ -17,29 +17,29 @@ The dataset comprises 62,141 rows and 5 variables: *Member ID*, *Order ID*, *SKU
 
 ### About Members
 
-![](/Users/apple/Desktop/grocery/images/order_placed.png)
+<img src="images/order_placed.png" style="width:70%;" />
 
 **The 106 members placed between 24 and 203 orders on BigBasket.** Notably, 50% of the members placed 75 or more orders, reflecting a high level of user engagement. This dataset offers a robust foundation for analyzing individual shopping habits and purchasing patterns.
 
-![](/Users/apple/Desktop/grocery/images/num_days.png)
+<img src="images/num_days.png" style="width:40%;" />
 
 **The 106 members have interacted with BigBasket over periods ranging from 501 to 1,334 days.** Notably, 50% of the members have been active for at least 957 days, highlighting sustained, long-term engagement. This dataset enables deep insights into evolving shopping patterns and behavioral trends over time.
 
-<img src="/Users/apple/Desktop/grocery/images/diff_products.png" style="zoom:150%;" />
+<img src="images/diff_products.png" style="width:70%;" />
 
 **Each member purchased between 26 and 94 distinct products**, with an average of 56 products. The distribution is concentrated around 50–60 products, indicating a typical purchasing range. Given the wide variety of items bought by each member, developing an effective personalized recommendation system requires precise pattern analysis to minimize irrelevant suggestions and enhance recommendation relevance.
 
 ### About Orders and Products
 
-![](/Users/apple/Desktop/grocery/images/product_by_order.png)
+<img src="images/product_by_order.png" style="width:70%;" />
 
 6.86% of orders contain a single product, and 30.63% include fewer than 5 products. Additionally, 75% of orders consist of fewer than 10 items, while the largest order includes 42 products. Despite the capacity to purchase many items in a single transaction, **a significant portion of orders are small, suggesting that many may be made to purchase forgotten items.** This ordering inefficiency can contribute to increased logistics and supply chain costs.
 
-![](/Users/apple/Desktop/grocery/images/product_popularity.png)
+<img src="images/product_popularity.png" style="width:70%;" />
 
 Among the 216 product types, vegetables—such as beans, root vegetables, and leafy greens—are the most frequently purchased items, with over 3,000 transactions recorded across 106 members. Other high-demand categories, including organic fruits and vegetables, whole spices, gourds and cucumbers, brinjals, namkeen, and bananas, have each been purchased more than 2,000 times. These trends suggest that **BigBasket is primarily used for grocery shopping, with a strong focus on fresh produce, fruits, and spices.** To maintain high levels of customer satisfaction, BigBasket should prioritize effective inventory and freshness management for these frequently purchased items.
 
-![](/Users/apple/Desktop/grocery/images/most_frequent.png)
+<img src="images/most_frequent.png" style="width:70%;" />
 
 Analysis shows consistent shopping patterns across members, with most top-purchased items ranging from 24 to 100 times. **Beans are the most frequently bought item among 18 members, followed by organic fruits and vegetables.** These trends highlight predictable habits, making personalized recommendations both feasible and valuable.
 
