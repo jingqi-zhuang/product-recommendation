@@ -1,11 +1,16 @@
 # Product Recommendation System for Bigbasket
 
+**What if your grocery app knew what you needed—before you did?**
+
 <img src="images/grocery.png" style="width:40%;" />
 
-BigBasket is one of India’s largest online grocery delivery platforms, offering a wide range of products including fresh produce, dairy, packaged foods, household items. This project focuses on developing a product recommendation system tailored for BigBasket's members, leveraging **Apriori algorithms** and **similarity measures** to analyze purchase patterns and user behavior. Two key features are introduced:
+This project builds a personalized recommendation system for BigBasket, one of India’s largest online grocery platforms, to enhance user convenience and drive smarter shopping experiences. Using Apriori algorithms and similarity measures, I analyzed user behavior and purchase patterns to introduce two intelligent features:
 
-- **Smart Basket:** Automatically suggests commonly purchased items based on historical purchase data and product associations, helping users quickly rebuild their typical cart.
-- **Did You Forget?:** Detects frequently bought items that are missing from the current basket and prompts users with reminders, reducing the chance of accidental omissions.
+- **Smart Basket:** Recommends frequently purchased items based on past behavior, helping users quickly rebuild their usual cart.
+
+- **Did You Forget?:** Identifies commonly bought products missing from the current basket and offers timely reminders, reducing forgotten essentials.
+
+These features aim to streamline the shopping journey while boosting customer satisfaction and retention.
 
 ## Part 1: Exploratory Data Analysis
 
